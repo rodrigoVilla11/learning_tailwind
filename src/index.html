@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../dist/output.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Travel</title>
+</head>
+<body>
+    <nav></nav>
+    <div id="tab_bar"></div>
+    <section class="w-full h-screen">
+        <div id="home">
+            <div class="w-full h-screen bg-contain">
+                <div class="w-full h-full flex flex-col absolute space-y-96 py-4 items-center">
+                    <input class="outline-none p-3 rounded-full shadow-md" placeholder="San Francisco" type="search" name="" id="">
+                    <button class="bg-white text-xl font-semibold p-4 text-primary shadow-xl w-32 rounded-full">Explorar</button>
+                </div>
+                <div class="w-full h-full ">
+                    <img src="../public/img/sanFranciscoDesktop.jpg" alt="sanFranciscoDesktop" class="h-screen w-full object-none"/>
+                </div>
+            </div>
+        </div>
+        <div class="p-6" id="recomendads">
+            <p class="text-3xl font-semibold text-primary mx-4">Recomendados</p>
+            <div class="w-auto h-72 items-center mt-6 overflow-x-auto overscroll-x-contain flex space-x-6">
+            <div class="Card">
+                <div class="CardImage"><img src="../public/img/norway.jpg" alt="sanFranciscoDesktop" class="h-full w-full rounded-t-lg"/></div>
+                <div class="CardTextDiv">
+                    <p class="CardTextP text-bold">Norway</p>
+                    <p class="CardTextP text-bold">Beatiful Landscapes</p>
+                </div>
+            </div>
+            <div class="Card">
+                <div class="CardImage"><img src="../public/img/new_york.jpg" alt="sanFranciscoDesktop" class="h-full w-full rounded-t-lg"/></div>
+                <div class="CardTextDiv">
+                    <p class="CardTextP text-bold">New York</p>
+                    <p class="CardTextP text-bold">Concrete jungle</p>
+                </div>
+            </div>
+            <div class="Card">
+                <div class="CardImage"><img src="../public/img/yosemite.jpg" alt="sanFranciscoDesktop" class="h-full w-full rounded-t-lg"/></div>
+                <div class="CardTextDiv">
+                    <p class="CardTextP text-bold">Yosemite</p>
+                    <p class="CardTextP text-bold">A break from the world</p>
+                </div>
+            </div>
+            <div class="Card">
+                <div class="CardImage"><img src="../public/img/seattle.jpg" alt="sanFranciscoDesktop" class="h-full w-full rounded-t-lg"/></div>
+                <div class="CardTextDiv">
+                    <p class="CardTextP text-bold">Seattle</p>
+                    <p class="CardTextP text-bold">Big City</p>
+                </div>
+            </div>
+            </div>
+        </div>
+        <div id="rentas_destacadas"></div>
+    </section>
+    
+</body>
+</html>
